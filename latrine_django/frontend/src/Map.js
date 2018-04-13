@@ -28,14 +28,14 @@ export class MapContainer extends Component {
   render() {
     return (
       <Map
-      google={this.props.google}
-      style={{width: '100%', height: '100%', margin: 'auto', position: 'relative'}}
-      containerStyle={{width: '100vw', height: '63vh', margin: 'auto', position: 'static'}}
-      zoom={14}
-      initialCenter={{
-        lat: 45.5231,
-        lng: -122.6765
-      }}
+        google={this.props.google}
+        style={{width: '100%', height: '100%', margin: 'auto', position: 'relative'}}
+        containerStyle={{width: '100vw', height: '100vh', margin: 'auto', position: 'static'}}
+        zoom={14}
+        initialCenter={{
+          lat: 45.5231,
+          lng: -122.6765
+        }}
       >
         {
           this.state.restrooms.map((i, markerindex) => {
