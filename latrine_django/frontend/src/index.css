@@ -3,3 +3,35 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.footer {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.footer ul li {
+  padding: 0 10px;
+
+}
+
+.footer li a {
+  font-size: 15.4px;
+  text-decoration: none;
+}
+
+.footer li a:active, a:visited, a:hover, a:link {
+  color:#3E750F;
+}
+
